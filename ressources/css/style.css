@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    text-align: center;
+    margin: auto;
+}
+
+header {
+    height: fit-content;
+    width: 100%;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: aquamarine;
+    font-size: 16px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.video {
+    padding-top: 20px;
+}
