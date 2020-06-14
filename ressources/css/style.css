@@ -4,11 +4,6 @@ body {
     margin: auto;
 }
 
-header {
-    height: fit-content;
-    width: 100%;
-}
-
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
@@ -16,6 +11,13 @@ h1 {
     color: white;
     display: flex;
     justify-content: center;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
 }
 
 a {
@@ -27,13 +29,57 @@ a {
     margin: auto;
 }
 
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: grey;
+}
+
+/*Header*/
+
+header {
+    height: fit-content;
+    width: 100%;
+}
+
+/*Main*/
+
 .main {
     display: flex;
     width: 100%;
     margin: auto;
     justify-content: center;
+    flex-wrap: wrap;
 }
+
+/*Video*/
 
 .video {
     padding-top: 20px;
+    width: 100%;
+}
+
+/*Landscape Image*/
+
+.tent {
+    width: 100%;
+}
+
+/*Coming soon*/
+
+.coming {
+    padding-top: 20px;
+}
+
+/*Footer*/
+
+footer {
+    width: 100%;
+    text-align: right;
+    padding-top: 20px;
+}
+
+footer p {
+    font-size: 16px;
+    padding-right: 10px;
 }
